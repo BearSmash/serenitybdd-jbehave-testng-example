@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Customer Test Suite" parallel="tests" thread-count="2" verbose="1" >
+    <test name="Greeting Tests" >
+        <packages>
+            <package name="com.bearsmash.sandbox.serenitybdd_jbehave_testng_example.features.greetings.runners"/>
+        </packages>
+    </test>
+    <test name="Shipping Costs Tests" >
+        <packages>
+            <package name="com.bearsmash.sandbox.serenitybdd_jbehave_testng_example.features.shippingCosts.runners"/>
+        </packages>
+    </test>
+</suite>
